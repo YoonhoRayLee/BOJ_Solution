@@ -1,4 +1,6 @@
-#BOJ Solution for problem_13460
+#Dongguk University Computer Science Engineering
+#Yoonho Ray Lee
+#BOJ Solution for Problem.13460
 
 from collections import deque
 
