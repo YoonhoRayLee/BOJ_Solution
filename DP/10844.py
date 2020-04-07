@@ -1,3 +1,7 @@
+#Dongguk University Computer Science Engineering
+#Yoonho Ray Lee
+#BOJ Solution for Problem.10844
+
 import sys
 
 n = int(input())
@@ -15,5 +19,5 @@ for i in range(2,n):
             dp[i][j] = dp[i-1][8]
         else:
             dp[i][j] = dp[i-1][j-1]+dp[i-1][j+1]
-            
+
 print(sum(dp[n-1])%1000000000)
