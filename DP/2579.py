@@ -1,3 +1,7 @@
+#Dongguk University Computer Science Engineering
+#Yoonho Ray Lee
+#BOJ Solution for Problem.2579
+
 import sys
 
 N = int(input())

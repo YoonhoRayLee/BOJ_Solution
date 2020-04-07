@@ -1,3 +1,7 @@
+#Dongguk University Computer Science Engineering
+#Yoonho Ray Lee
+#BOJ Solution for Problem.1003
+
 import sys
 T = int(input())
 inputArr = []
