@@ -21,5 +21,10 @@ for i in range(1, N+1):
         if A[N-i+1] > A[N-j+1] and dpDec[N-j+1]+1>dpDec[N-i+1]:
             dpDec[N-i+1] = dpDec[N-j+1]+1
 for i in range(N):
-    resultDP.append(dpDec[i]+dpInc[i])
-print(max(resultDP)-1)
+    if dpDec[i] == 1 or dpInc[i] == 1:
+        resultDP.append(1)
+    elif dpDec[i] == 0 or dpInc[i] == 0:
+        resultDP.append(1)
+    else:
+        resultDP.append(dpDec[i]+dpInc[i]-1)
+print(max(resultDP))
